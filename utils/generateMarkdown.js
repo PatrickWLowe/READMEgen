@@ -15,11 +15,20 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+
   ## Description
   ${data.description}
 
   ## Installation
-  ${data.Installation}
+  ${data.Installations}
 
   ## Usage
   ${data.Usage}
@@ -27,18 +36,20 @@ function generateMarkdown(data) {
   ## License
 
   ## Contributing
-  ${data.credits}
+  ${data.contributing}
 
   ## Tests
-  ${data.Features}
+  ${data.Tests}
 
-  ## How to Contribute
-  ${data.how-to-contribute}
+  ## Questions
+  ${data.QuestionsSec}
 
-  
+  ### Email
+  ${data.email}
 
-
+  ### GitHub UserName
+  ${data.Github}
 `;
-}
+};
 
 module.exports = generateMarkdown;
