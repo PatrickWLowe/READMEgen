@@ -29,7 +29,7 @@ const questions = [
         type: 'list',
         name: 'License',
         message: 'Would You like to add a "License"?',
-        choices: ['MIT', 'Apache 2.0' ],
+        choices: ['The MIT License', 'Apache 2.0', 'IBM Public License Version 1.0'],
         filter(choice) {
            return choice; 
         }
@@ -94,7 +94,7 @@ init()
     return writeToFile(pageMD);
 })
 .then(writeFileResponse => {
-    console.log(writeFileResponse.message);
+    console.log(writeFileResponse);
 })
 .catch(err => {
     console.log(err);
