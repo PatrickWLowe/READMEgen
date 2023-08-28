@@ -18,7 +18,7 @@
 
 ## Installation
 
-#### You will need clone the repository and open the folder locally. Then you will need to run npm "install" in the parent folder. Then node inddex.js to get started.
+#### You will need clone the repository and open the folder locally. Then you will need to run npm "install" in the parent folder. Then node index.js to get started.
 
 ## Acceptance Criteria
 
