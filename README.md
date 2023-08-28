@@ -44,6 +44,10 @@ THEN I am taken to the corresponding section of the README
 
 ![READ ME](/images/ScreenshotReadme.png)
 
+## Link to Video Walkthrough
+
+#### https://drive.google.com/file/d/1JVUU1cBF-6NiuRcQomM9a6_9mQsRPXY6/viewLinks to an external site.
+
 ## References
 
 #### https://stackoverflow.com/questions/73603668/how-do-i-format-data-from-an-inquirer-output-into-markdown-file
