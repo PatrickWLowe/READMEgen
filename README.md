@@ -4,7 +4,7 @@
 
 ## Description
 
-#### An App that allows you to generate a README file that works as a template using Node JS.
+#### An App that allows you to generate a README file that works as a template using Node JS and inquirer.
 
 ## Technologies Used
 
