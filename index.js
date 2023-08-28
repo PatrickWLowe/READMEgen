@@ -1,9 +1,8 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const GenMD = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+
 const questions = [
     {
         type: 'input',
@@ -17,7 +16,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'installations',
+        name: 'Installation',
         message: 'Please add any information to your "Installation" Section?',
     },
     {
@@ -63,8 +62,6 @@ const questions = [
 ];
 
 
-
-// TODO: Create a function to write README file
 const writeToFile = Filecontent => {
     fs.writeFile('README.md', Filecontent, err => {
         if (err) {
@@ -75,15 +72,12 @@ const writeToFile = Filecontent => {
     });
 };
 
-// TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
     .then((data) => {
         return data;
     }) 
 };
-
-// Function call to initialize app
 
 init()
 .then(data => {
